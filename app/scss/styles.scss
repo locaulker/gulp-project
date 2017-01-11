@@ -1,0 +1,24 @@
+@import "sprites";
+
+.github {
+  @include sprites($spritesheet-sprites);
+}
+
+// .testing {
+//   // color: $red;
+//   // percentage is a sass function
+//   width: percentage(4/7);
+// }
+
+// .flex {
+//   display: flex;
+// }
+//
+// .border-radius {
+//   -webkit-border-radius: 12px;
+//   -moz-border-radius: 12px;
+//   border-radius: 12px;
+// }
+//
+// // main.scss
+// @import "testing";
